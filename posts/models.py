@@ -1,7 +1,7 @@
 from django.db import models
 from django.utils import timezone
 from django.contrib.auth.models import User
-from django.db.models import Count
+
 
 class Category(models.Model):
     slug = models.SlugField(max_length=250)
